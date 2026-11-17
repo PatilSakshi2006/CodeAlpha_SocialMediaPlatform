@@ -1,7 +1,12 @@
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
-SECRET_KEY = "django-insecure-codealpha-socialhub-demo-change-before-deployment"
+import os
+
+SECRET_KEY = os.environ.get(
+    "DJANGO_SECRET_KEY",
+    "django-insecure-development-key-change-before-deployment"
+)
 DEBUG = True
 ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
 
