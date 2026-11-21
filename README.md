@@ -60,3 +60,18 @@ Then visit http://127.0.0.1:8000/admin/.
 ## Notes
 - This is a learning/demo project. Before public production deployment, configure a strong `SECRET_KEY`, `DEBUG=False`, `ALLOWED_HOSTS`, HTTPS, secure cookies, backups and a production database/storage service.
 - The default database is SQLite and is created by `migrate`.
+
+## Technologies Used
+- Python
+- Django
+- SQLite
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+
+## Live Demo
+https://codealpha-socialmediaplatform-1-u35n.onrender.com/
+
+## Developer
+CodeAlpha Internship Project – Social Media Platform
